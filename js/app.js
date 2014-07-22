@@ -37,12 +37,46 @@
                     thumb: 'images/dodecahedron-01-thumb.png'
                 }
             ],
+            review: [
+                {
+                    stars: 5,
+                    body: 'I love this product!',
+                    author: 'joe@thomas.com'
+                },
+                {
+                    stars: 1,
+                    body: 'This product sucks',
+                    author: 'tim@hater.com'
+                },
+                {
+                    stars: 3,
+                    body: 'This prduct is just OK',
+                    author: 'andy@sheeks.net'
+                }
+            ]
         },
         {
             name: 'Pentagonal Gem',
             price: 5.95,
             description: 'Cardigan Godard yr leggings literally. Typewriter next level blog brunch Williamsburg semiotics, locavore mumblecore banh mi YOLO Godard ennui narwhal shabby chic.',
             canPurchase: false,
+            review: [
+                {
+                    stars: 4,
+                    body: 'This is pretty cool',
+                    author: 'dick@jane.com'
+                },
+                {
+                    stars: 2,
+                    body: 'Wouldn\'t use it again...',
+                    author: 'bill@hater.org'
+                },
+                {
+                    stars: 5,
+                    body: 'Yeah this product is the shit!',
+                    author: 'kyle@kyleskids.edu'
+                }
+            ]
 
         }
     ];
