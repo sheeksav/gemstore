@@ -11,6 +11,16 @@
 <!-- Bind scope of controller to the Body -->
 <body ng-controller="StoreController as store">
 
+
+    <section>
+        <ul class="nav nav-pills">
+            <li><a href ng-click="tab = 1">Description</a></li>
+            <li><a href ng-click="tab = 2">Specifications</a></li>
+            <li><a href ng-click="tab = 3">Reviews</a></li>
+        </ul>
+        {{ tab }}
+    </section>
+
     <div class="container">
 
         <ul class="list-group">
