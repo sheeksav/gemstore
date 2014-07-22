@@ -8,6 +8,22 @@
         this.products = gems;
     });
 
+    app.controller('PanelController', function(){
+
+        // Initialize the value of tab
+        this.tab = 1;
+
+        // A function to update the current tab number when selected
+        this.selectTab = function(setTab) {
+          this.tab = setTab;
+        };
+
+        // Returns true if the checked tab matches the selected tab
+        this.isSelected = function(checkTab) {
+            return this.tab === checkTab;
+        };
+    });
+
     // Here we define our object
     var gems = [
         {
