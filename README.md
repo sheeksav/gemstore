@@ -1,5 +1,5 @@
-GemStore - An store managment app written with Angular.js
-=========================================================
-
+GemStore
+========
+A store management app built with Angular.js
 
 
